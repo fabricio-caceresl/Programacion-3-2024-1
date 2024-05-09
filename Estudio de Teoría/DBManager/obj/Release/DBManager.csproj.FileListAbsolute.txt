@@ -1,0 +1,12 @@
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\DBManager.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\DBManager.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\MySql.Data.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\System.Memory.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\System.Numerics.Vectors.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Release\System.Buffers.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Release\DBManager.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Release\DBManager.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Release\DBManager.csproj.Up2Date
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Release\DBManager.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Release\DBManager.pdb

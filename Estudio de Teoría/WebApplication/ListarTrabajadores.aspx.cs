@@ -22,5 +22,10 @@ namespace WebApplication
             gvTrabajadores.DataSource = trabajadores;
             gvTrabajadores.DataBind();
         }
+
+        protected void lbRegistrarTrabajador_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("GestionarTrabajador.aspx");
+        }
     }
 }

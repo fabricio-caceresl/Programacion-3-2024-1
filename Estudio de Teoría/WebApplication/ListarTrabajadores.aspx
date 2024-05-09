@@ -9,7 +9,8 @@
         <div class="text-end p-3">
             <asp:LinkButton ID="lbRegistrarTrabajador" runat="server"
                 class="btn btn-success"
-                Text="<i class='fa-solid fa-plus pe-2'></i> Registrar Area" />
+                Text="<i class='fa-solid fa-plus pe-2'></i> Registrar Area"
+                OnClick="lbRegistrarTrabajador_Click" />
         </div>
     </div>
     <div class="container row">

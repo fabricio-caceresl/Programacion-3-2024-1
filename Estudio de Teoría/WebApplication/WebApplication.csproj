@@ -14,7 +14,7 @@
     <AssemblyName>WebApplication</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress />
+    <Use64BitIISExpress>true</Use64BitIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -99,8 +99,8 @@
     <Content Include="Content\Fonts\css\v5-font-face.css" />
     <Content Include="Content\Fonts\css\v5-font-face.min.css" />
     <Content Include="Content\site.css" />
+    <Content Include="GestionarTrabajador.aspx" />
     <Content Include="Home.aspx" />
-    <Content Include="index.html" />
     <Content Include="ListarTrabajadores.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -130,6 +130,13 @@
     </Compile>
     <Compile Include="Empresa.Master.designer.cs">
       <DependentUpon>Empresa.Master</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarTrabajador.aspx.cs">
+      <DependentUpon>GestionarTrabajador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarTrabajador.aspx.designer.cs">
+      <DependentUpon>GestionarTrabajador.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -204,9 +211,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>63015</DevelopmentServerPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:63015/</IISUrl>
+          <IISUrl>http://localhost:51654/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,0 +1,16 @@
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\RecursosHumanosController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\RecursosHumanosController.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\DBManager.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\MySql.Data.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\System.Memory.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\System.Numerics.Vectors.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\System.Buffers.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\DBManager.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\bin\Release\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\obj\Release\RecursosHumanosController.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\obj\Release\RecursosHumanosController.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\obj\Release\Recursos.2EC542A4.Up2Date
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\obj\Release\RecursosHumanosController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosController\obj\Release\RecursosHumanosController.pdb

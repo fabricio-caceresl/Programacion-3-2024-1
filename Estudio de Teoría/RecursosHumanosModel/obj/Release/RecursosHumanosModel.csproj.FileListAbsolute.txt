@@ -1,0 +1,6 @@
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\bin\Release\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\bin\Release\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Release\RecursosHumanosModel.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Release\RecursosHumanosModel.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Release\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Release\RecursosHumanosModel.pdb
