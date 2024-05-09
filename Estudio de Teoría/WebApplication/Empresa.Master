@@ -7,7 +7,7 @@
 
 <html>
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/site.css" rel="stylesheet" />
@@ -36,32 +36,67 @@
             <hr />
             <ul class="mynav nav nav-pills flex-column mb-auto">
                 <li class="nav-item mb-1">
-                    <a href="FormularioTrabajador.aspx">
-                        <i class="fa-solid fa-user-tie"></i> Areas
+                    <a href="ListarTrabajadores.aspx">
+                        <i class="fa-solid fa-user-tie"></i>Trabajadores
                     </a>
                 </li>
                 <li class="nav-item mb-1">
                     <a href="#">
-                        <i class="fa-solid fa-question"></i> Otro Componente 1
+                        <i class="fa-solid fa-question pe-2"></i>Otro Componente 1
                     </a>
                 </li>
                 <li class="nav-item mb-1">
                     <a href="#">
-                        <i class="fa-solid fa-question"></i> Otro Componente 2
+                        <i class="fa-solid fa-question pe-2"></i>Otro Componente 2
                     </a>
                 </li>
                 <li class="nav-item mb-1">
                     <a href="#">
-                        <i class="fa-solid fa-question"></i> Otro Componente 3
+                        <i class="fa-solid fa-question pe-2"></i>Otro Componente 3
                     </a>
                 </li>
             </ul>
+            <hr />
+            <div class="d-flex">
+                <i class="fa-solid fa-shop p-1" style="margin-right: 4px;"></i>
+                <h6 class="mt-1 mb-0">Programación 3</h6>
+            </div>
         </div>
 
         <!-- Contenido Derecha -->
-        <div>
-
+        <div class="bg-light flex-fill">
+            <div class="p-2 d-md-none d-flex text-white bg-primary">
+                <a data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" class="text-white">
+                    <i class="fa-solid fa-bars"></i>
+                    <img src="Images/pucp.png" width="75" class="ms-4"/>
+                </a>
+            </div>
+            <nav class="navbar navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-sm-none d-md-block d-none d-sm-block">Software de la Empresa</a>
+                    <form class="d-flex">
+                        <div class="dropdown">
+                            <button class="btn btn-outline-light dropdown-toggle"
+                                id="btnUsuario" data-bs-toggle="dropdown" type="button"
+                                aria-expanded="false">
+                                <i class="fas fa-user me-2"></i>
+                                Fabricio Cáceres
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnUsuario">
+                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Cambiar Contraseña</a></li>
+                                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+            <div class="p-4">
+                <form runat="server">
+                    <asp:ContentPlaceHolder ID="cphContenido" runat="server">
+                    </asp:ContentPlaceHolder>
+                </form>
+            </div>
         </div>
-    </div>
 </body>
 </html>

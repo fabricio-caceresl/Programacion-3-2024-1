@@ -11,34 +11,25 @@ namespace WebApplication
 {
 
 
-    public partial class Empresa
+    public partial class ListarTrabajadores
     {
 
         /// <summary>
-        /// cphTitulo control.
+        /// lbRegistrarTrabajador control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphTitulo;
+        protected global::System.Web.UI.WebControls.LinkButton lbRegistrarTrabajador;
 
         /// <summary>
-        /// cphScripts control.
+        /// gvTrabajadores control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphScripts;
-
-        /// <summary>
-        /// cphContenido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphContenido;
+        protected global::System.Web.UI.WebControls.GridView gvTrabajadores;
     }
 }

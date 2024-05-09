@@ -101,6 +101,7 @@
     <Content Include="Content\site.css" />
     <Content Include="Home.aspx" />
     <Content Include="index.html" />
+    <Content Include="ListarTrabajadores.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -136,6 +137,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarTrabajadores.aspx.cs">
+      <DependentUpon>ListarTrabajadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarTrabajadores.aspx.designer.cs">
+      <DependentUpon>ListarTrabajadores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

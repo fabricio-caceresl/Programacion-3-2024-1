@@ -10,3 +10,9 @@ C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosMo
 C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.CoreCompileInputs.cache
 C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.dll
 C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\bin\Debug\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\bin\Debug\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.pdb

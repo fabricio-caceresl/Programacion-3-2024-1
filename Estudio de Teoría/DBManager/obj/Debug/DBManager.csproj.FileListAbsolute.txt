@@ -10,3 +10,15 @@ C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.csproj.CoreCompi
 C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.csproj.Up2Date
 C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.dll
 C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\DBManager.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\DBManager.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\MySql.Data.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Memory.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Numerics.Vectors.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Buffers.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.Up2Date
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.pdb
