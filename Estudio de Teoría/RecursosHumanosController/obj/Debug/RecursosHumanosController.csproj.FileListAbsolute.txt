@@ -1,0 +1,32 @@
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\RecursosHumanosController.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\RecursosHumanosController.pdb
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\DBManager.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\MySql.Data.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\System.Memory.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\System.Buffers.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\DBManager.pdb
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\bin\Debug\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\obj\Debug\RecursosHumanosController.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\obj\Debug\RecursosHumanosController.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\obj\Debug\Recursos.2EC542A4.Up2Date
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\obj\Debug\RecursosHumanosController.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosController\obj\Debug\RecursosHumanosController.pdb
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\RecursosHumanosController.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\RecursosHumanosController.pdb
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\DBManager.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\MySql.Data.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\System.Memory.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\System.Buffers.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\DBManager.pdb
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\bin\Debug\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\obj\Debug\RecursosHumanosController.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\obj\Debug\RecursosHumanosController.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\obj\Debug\Recursos.2EC542A4.Up2Date
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\obj\Debug\RecursosHumanosController.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosController\obj\Debug\RecursosHumanosController.pdb

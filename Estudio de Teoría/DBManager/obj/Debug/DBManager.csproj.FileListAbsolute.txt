@@ -1,0 +1,12 @@
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\DBManager.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\DBManager.pdb
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\MySql.Data.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\System.Memory.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\bin\Debug\System.Buffers.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.csproj.Up2Date
+C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.dll
+C:\Users\Fabricio\Desktop\Empresa\DBManager\obj\Debug\DBManager.pdb

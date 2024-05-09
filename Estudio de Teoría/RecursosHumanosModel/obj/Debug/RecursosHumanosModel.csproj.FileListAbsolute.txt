@@ -1,0 +1,12 @@
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosModel\bin\Debug\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosModel\bin\Debug\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\Empresa\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\bin\Debug\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\bin\Debug\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\10. Conexión a Base de Datos con C#\RecursosHumanosModel\obj\Debug\RecursosHumanosModel.pdb
