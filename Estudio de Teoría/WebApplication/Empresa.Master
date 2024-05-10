@@ -48,6 +48,30 @@
                     </a>
                 </li>
 
+                <li class="sidebar-item  nav-item mb-1">
+                    <a href="#" class="sidebar-link collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#settings"
+                        aria-expanded="false" aria-controls="settings">
+                        <i class="fa-solid fa-money-bill pe-2"></i>
+                        <span class="topic">Ordenes Venta</span>
+                    </a>
+                    <ul id="settings" class="sidebar-dropdown list-unstyled collapse"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="GestionarOrdenVenta.aspx" class="sidebar-link">
+                                <i class="fa-solid fa-cash-register pe-2"></i>
+                                <span class="topic">Registrar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">
+                                <i class="fa-solid fa-list pe-2"></i>
+                                <span class="topic">Listar</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
             </ul>
             <hr />
             <div class="d-flex">

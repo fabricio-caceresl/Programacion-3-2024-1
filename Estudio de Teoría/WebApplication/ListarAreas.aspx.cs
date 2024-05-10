@@ -47,5 +47,11 @@ namespace WebApplication
             areaDao.eliminarArea(idArea);
             Response.Redirect("ListarAreas.aspx");
         }
+
+        protected void gvAreas_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gvAreas.PageIndex = e.NewPageIndex;
+            gvAreas.DataBind();
+        }
     }
 }

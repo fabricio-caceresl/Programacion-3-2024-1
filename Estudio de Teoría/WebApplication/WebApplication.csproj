@@ -101,6 +101,7 @@
     <Content Include="Content\site.css" />
     <Content Include="GestionarArea.aspx" />
     <Content Include="GestionarEmpleado.aspx" />
+    <Content Include="GestionarOrdenVenta.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="ListarAreas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -118,6 +119,7 @@
     <Content Include="Content\Fonts\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Content\Fonts\webfonts\fa-v4compatibility.woff2" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="Scripts\Empresa\gestionarOrdenVenta.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
     <Content Include="Scripts\jquery-3.7.1.slim.js" />
@@ -146,6 +148,13 @@
     </Compile>
     <Compile Include="GestionarEmpleado.aspx.designer.cs">
       <DependentUpon>GestionarEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarOrdenVenta.aspx.cs">
+      <DependentUpon>GestionarOrdenVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarOrdenVenta.aspx.designer.cs">
+      <DependentUpon>GestionarOrdenVenta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

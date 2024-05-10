@@ -25,6 +25,8 @@
         <div class="container row">
             <asp:Label ID="lblSinAreasRegistradas" runat="server"></asp:Label>
             <asp:GridView ID="gvAreas" runat="server"
+                AllowPaging="true" PageSize="5"
+                OnPageIndexChanging="gvAreas_PageIndexChanging"
                 AutoGenerateColumns="false"
                 CssClass="table table-hover table-responsive table-striped">
                 <Columns>
