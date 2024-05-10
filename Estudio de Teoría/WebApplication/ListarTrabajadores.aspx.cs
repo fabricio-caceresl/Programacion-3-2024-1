@@ -27,5 +27,17 @@ namespace WebApplication
         {
             Response.Redirect("GestionarTrabajador.aspx");
         }
+
+        protected void lbEditarTrabajador_Click(object sender, EventArgs e)
+        {
+            int id = Int32.Parse(((LinkButton) sender).CommandArgument);
+        }
+
+        protected void lbEliminarTrabajador_Click(object sender, EventArgs e)
+        {
+            int id = Int32.Parse(((LinkButton)sender).CommandArgument);
+            trabajadorDao.eliminarTrabajador(id);
+            Response.Redirect("ListarTrabajadores.aspx");
+        }
     }
 }

@@ -24,8 +24,15 @@
                 <asp:BoundField HeaderText="Área" DataField="Area"/>
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:LinkButton runat="server" Text="<i class='fa-solid fa-edit ps-2'></i>"/>
-                        <asp:LinkButton runat="server" Text="<i class='fa-solid fa-trash ps-2'></i>"/>
+                        <asp:LinkButton ID="lbEditarTrabajador" runat="server"
+                            Text="<i class='fa-solid fa-edit ps-2'></i>" 
+                            CommandArgument='<%# Eval("Id") %>'
+                            OnClick="lbEditarTrabajador_Click"/>
+
+                        <asp:LinkButton ID="lbEliminarTrabajador" runat="server"
+                            Text="<i class='fa-solid fa-trash ps-2'></i>"
+                            CommandArgument='<%# Eval("Id") %>'
+                            OnClick="lbEliminarTrabajador_Click"/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
