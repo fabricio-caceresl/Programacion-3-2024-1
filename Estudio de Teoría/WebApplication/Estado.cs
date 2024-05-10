@@ -7,6 +7,6 @@ namespace WebApplication
 {
     public enum Estado
     {
-        Nuevo, Editar
+        Nuevo, Modificar
     }
 }

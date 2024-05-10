@@ -1,23 +1,23 @@
-﻿using MySql.Data.MySqlClient;
+﻿using EmpresaDBManager;
+using MySql.Data.MySqlClient;
+using RecursosHumanosController.DAO;
 using RecursosHumanosModel;
-using EmpresaDBManager;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MySqlX.XDevAPI;
 
 namespace RecursosHumanosController.MySQL
 {
-    public class TrabajadorMySQL : TrabajadorDAO
+    public class AreaMySQL : AreaDAO
     {
         private MySqlConnection conexion;
         private MySqlCommand comando;
         private MySqlDataReader lector;
 
-        public int insertarTrabajador(Trabajador trabajador)
+        public int insertarArea(Area area)
         {
             int resultado = 0;
 
@@ -25,17 +25,22 @@ namespace RecursosHumanosController.MySQL
             {
                 conexion = DBManager.Instancia.Connection;
                 conexion.Open();
+
                 comando = new MySqlCommand();
                 comando.Connection = conexion;
-                comando.CommandText = "INSERTAR_TRABAJADOR";
+
+                comando.CommandText = "INSERTAR_AREA";
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
-                comando.Parameters.Add("_id", MySqlDbType.Int32).Direction = System.Data.ParameterDirection.Output;
-                comando.Parameters.AddWithValue("_nombre", trabajador.Nombre);
-                comando.Parameters.AddWithValue("_edad", trabajador.Edad);
-                comando.Parameters.AddWithValue("_area", trabajador.Area);
+
+                comando.Parameters.Add("_id", MySqlDbType.Int32).Direction =
+                                       System.Data.ParameterDirection.Output;
+
+                comando.Parameters.AddWithValue("_nombre", area.Nombre);
+                comando.Parameters.AddWithValue("_descripcion", area.Descripcion);
+
                 comando.ExecuteNonQuery();
-                trabajador.Id = Int32.Parse(comando.Parameters["_id"].Value.ToString());
-                resultado = trabajador.Id;
+                area.Id = Int32.Parse(comando.Parameters["_id"].Value.ToString());
+                resultado = area.Id;
             }
             catch (Exception ex)
             {
@@ -51,7 +56,7 @@ namespace RecursosHumanosController.MySQL
             return resultado;
         }
 
-        public int modificarTrabajador(Trabajador trabajador)
+        public int modificarArea(Area area)
         {
             int resultado = 0;
 
@@ -62,19 +67,21 @@ namespace RecursosHumanosController.MySQL
 
                 comando = new MySqlCommand();
                 comando.Connection = conexion;
-                comando.CommandText = "MODIFICAR_TRABAJADOR";
+
+                comando.CommandText = "MODIFICAR_AREA";
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
 
-                comando.Parameters.AddWithValue("_id", trabajador.Id);
-                comando.Parameters.AddWithValue("_nombre", trabajador.Nombre);
-                comando.Parameters.AddWithValue("_edad", trabajador.Edad);
-                comando.Parameters.AddWithValue("_area", trabajador.Area);
+                comando.Parameters.AddWithValue("_id", area.Id);
+                comando.Parameters.AddWithValue("_nombre", area.Nombre);
+                comando.Parameters.AddWithValue("_descripcion", area.Descripcion);
 
                 resultado = comando.ExecuteNonQuery();
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception(ex.Message);
-            } finally
+            }
+            finally
             {
                 try { conexion.Close(); }
                 catch (Exception ex)
@@ -84,7 +91,7 @@ namespace RecursosHumanosController.MySQL
             return resultado;
         }
 
-        public int eliminarTrabajador(int idTrabajador)
+        public int eliminarArea(int idArea)
         {
             int resultado = 0;
 
@@ -95,15 +102,19 @@ namespace RecursosHumanosController.MySQL
 
                 comando = new MySqlCommand();
                 comando.Connection = conexion;
-                comando.CommandText = "ELIMINAR_TRABAJADOR";
+
+                comando.CommandText = "ELIMINAR_AREA";
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("_id", idTrabajador);
+
+                comando.Parameters.AddWithValue("_id", idArea);
 
                 resultado = comando.ExecuteNonQuery();
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception(ex.Message);
-            } finally
+            }
+            finally
             {
                 try { conexion.Close(); }
                 catch (Exception ex)
@@ -113,9 +124,9 @@ namespace RecursosHumanosController.MySQL
             return resultado;
         }
 
-        public BindingList<Trabajador> listarTodos()
+        public BindingList<Area> listarTodas()
         {
-            BindingList<Trabajador> clientes = new BindingList<Trabajador>();
+            BindingList<Area> areas = new BindingList<Area>();
 
             try
             {
@@ -124,35 +135,41 @@ namespace RecursosHumanosController.MySQL
 
                 comando = new MySqlCommand();
                 comando.Connection = conexion;
-                comando.CommandText = "LISTAR_TRABAJADORES_TODOS";
+
+                comando.CommandText = "LISTAR_AREAS_TODAS";
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
 
                 lector = comando.ExecuteReader();
                 while (lector.Read())
                 {
-                    Trabajador trabajador = new Trabajador();
+                    Area area = new Area();
 
                     if (!lector.IsDBNull(lector.GetOrdinal("ID")))
-                        trabajador.Id = lector.GetInt32("ID");
+                        area.Id = lector.GetInt32("ID");
                     if (!lector.IsDBNull(lector.GetOrdinal("Nombre")))
-                        trabajador.Nombre = lector.GetString("Nombre");
-                    if (!lector.IsDBNull(lector.GetOrdinal("Edad")))
-                        trabajador.Edad = lector.GetInt32("Edad");
-                    if (!lector.IsDBNull(lector.GetOrdinal("Area")))
-                        trabajador.Area = lector.GetString("Area");
+                        area.Nombre = lector.GetString("Nombre");
+                    if (!lector.IsDBNull(lector.GetOrdinal("Descripción")))
+                        area.Descripcion = lector.GetString("Descripción");
 
-                    clientes.Add(trabajador);
+                    areas.Add(area);
                 }
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception(ex.Message);
-            } finally
+            }
+            finally
             {
-                try { lector.Close();   } catch (Exception ex) { throw new Exception(ex.Message); }
-                try { conexion.Close(); } catch (Exception ex) { throw new Exception(ex.Message); }
+                try { lector.Close(); }
+                catch (Exception ex)
+                { throw new Exception(ex.Message); }
+
+                try { conexion.Close(); }
+                catch (Exception ex)
+                { throw new Exception(ex.Message); }
             }
 
-            return clientes;
+            return areas;
         }
     }
 }

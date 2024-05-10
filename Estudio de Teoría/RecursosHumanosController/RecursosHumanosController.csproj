@@ -44,9 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MySQL\TrabajadorMySQL.cs" />
+    <Compile Include="DAO\AreaDAO.cs" />
+    <Compile Include="MySQL\AreaMySQL.cs" />
+    <Compile Include="MySQL\EmpleadoMySQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DAO\TrabajadorDAO.cs" />
+    <Compile Include="DAO\EmpleadoDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DBManager\DBManager.csproj">

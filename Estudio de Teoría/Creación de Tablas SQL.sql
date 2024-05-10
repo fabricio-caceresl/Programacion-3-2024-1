@@ -1,89 +1,127 @@
 -- /------------------------------------------------------/
 --                Reiniciar la Base de Datos              
 -- /------------------------------------------------------/
-DROP TABLE IF EXISTS Trabajador;
+-- Eliminación de las Tablas
+DROP TABLE IF EXISTS Empleado;
 DROP TABLE IF EXISTS Persona;
-DROP PROCEDURE IF EXISTS INSERTAR_TRABAJADOR;
-DROP PROCEDURE IF EXISTS MODIFICAR_TRABAJADOR;
-DROP PROCEDURE IF EXISTS ELIMINAR_TRABAJADOR;
-DROP PROCEDURE IF EXISTS LISTAR_TRABAJADORES_TODOS;
+DROP TABLE IF EXISTS Area;
+-- Eliminación de los Procedimientos de Áreas
+DROP PROCEDURE IF EXISTS INSERTAR_AREA;
+DROP PROCEDURE IF EXISTS MODIFICAR_AREA;
+DROP PROCEDURE IF EXISTS ELIMINAR_AREA;
+DROP PROCEDURE IF EXISTS LISTAR_AREAS_TODAS;
+-- Eliminación de los Procedimientos de Trabajador
+DROP PROCEDURE IF EXISTS INSERTAR_EMPLEADO;
+
 
 
 -- /------------------------------------------------------/
 -- 				  CREACION DE LAS TABLAS				  
 -- /------------------------------------------------------/
--- Tabla Persona
-CREATE TABLE Persona (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255) NOT NULL,
-    edad INT CHECK (edad >= 0 AND edad <= 150),
+-- Tabla Area
+CREATE TABLE Area (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255),
     activo BOOL
 );
 
+-- Tabla Persona
+CREATE TABLE Persona (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    dni VARCHAR(8),
+    nombre VARCHAR(100),
+    apellidoPaterno VARCHAR(100),
+    genero CHAR,
+    fechaNacimiento DATE
+);
+
 -- Tabla Trabajador
-CREATE TABLE Trabajador (
+CREATE TABLE Empleado (
     id INT PRIMARY KEY,
-    area VARCHAR(255),
-    FOREIGN KEY (id) REFERENCES Persona(id)
+    fidArea INT,
+	cargo VARCHAR(100),
+    sueldo DECIMAL(10,2),
+    activo BOOL,
+    FOREIGN KEY(id) REFERENCES Persona(id),
+    FOREIGN KEY(fidArea) REFERENCES Area(id)
 );
 
 
+
 -- /------------------------------------------------------/
---              CREACION DE LOS PROCEDIMINETOS            
+--              PROCEDIMIENTOS PARA LAS ÁREAS             
 -- /------------------------------------------------------/
 DELIMITER $
 
 -- Procedimiento de Inserción
-CREATE PROCEDURE INSERTAR_TRABAJADOR (
+CREATE PROCEDURE INSERTAR_AREA (
 	OUT _id INT,
-	IN _nombre VARCHAR(255),
-    IN _edad INT,
-    IN _area VARCHAR(255)
+	IN _nombre VARCHAR(100),
+    IN _descripcion VARCHAR(255)
 )
 BEGIN
-	INSERT INTO Persona (nombre, edad, activo)
-    VALUES (_nombre, _edad, true);
+	INSERT INTO Area (nombre, descripcion, activo)
+    VALUES (_nombre, _descripcion, true);
     
     SET _id = @@last_insert_id;
-    
-    INSERT INTO Trabajador (id, area)
-    VALUES (_id, _area);
 END$
 
 -- Procedimiento de Modificación
-CREATE PROCEDURE MODIFICAR_TRABAJADOR (
+CREATE PROCEDURE MODIFICAR_AREA (
 	IN _id INT,
-    IN _nombre VARCHAR(255),
-    IN _edad INT,
-    IN _area VARCHAR(255)
+    IN _nombre VARCHAR(100),
+    IN _descripcion VARCHAR(255)
 )
 BEGIN
-	UPDATE Persona
-    SET nombre = _nombre, edad = _edad
-    WHERE id = _id;
-    
-    UPDATE Trabajador
-    SET area = _area
+	UPDATE Area
+    SET nombre = _nombre, descripcion = _descripcion
     WHERE id = _id;
 END$
 
 -- Procedimiento de Eliminación
-CREATE PROCEDURE ELIMINAR_TRABAJADOR (
+CREATE PROCEDURE ELIMINAR_AREA (
 	IN _id INT
 )
 BEGIN
-	UPDATE Persona
+	UPDATE Area
     SET activo = false
     WHERE id = _id;
 END$
 
 -- Procedimiento de Listar Todos
-CREATE PROCEDURE LISTAR_TRABAJADORES_TODOS ()
+CREATE PROCEDURE LISTAR_AREAS_TODAS ()
 BEGIN
-	SELECT Persona.id as ID, Persona.nombre as Nombre,
-		   Persona.edad as Edad, Trabajador.area as Area
-    FROM Persona
-    INNER JOIN Trabajador ON Trabajador.id
-    WHERE Persona.id = Trabajador.id AND
-		  Persona.activo = true;
+	SELECT id as ID, nombre as Nombre, descripcion as Descripción
+    FROM Area
+    WHERE activo = true;
+END$
+
+
+
+-- /------------------------------------------------------/
+--           PROCEDIMIENTOS PARA LOS TRABAJADORES          
+-- /------------------------------------------------------/
+DELIMITER $
+
+-- Procedimiento de Inserción
+CREATE PROCEDURE INSERTAR_EMPLEADO (
+	OUT _id INT,
+    IN _dni VARCHAR(8),
+    IN _nombre VARCHAR(100),
+    IN _apellidoPaterno VARCHAR(100),
+    IN _genero CHAR,
+    IN _fechaNacimiento DATE,
+    IN _fidArea INT,
+	IN _cargo VARCHAR(100),
+    IN _sueldo DECIMAL(10,2)
+)
+BEGIN
+	INSERT INTO Persona (dni, nombre, apellidoPaterno, genero, fechaNacimiento)
+    VALUES (_dni, _nombre, _apellidoPaterno, _genero, _fechaNacimiento);
+    
+    SET _id = @@last_insert_id;
+    
+    INSERT INTO Empleado (id, fidArea, cargo, sueldo, activo)
+    VALUES (_id, _fidArea, _cargo, _sueldo, true);
 END$

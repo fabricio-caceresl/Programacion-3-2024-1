@@ -35,26 +35,19 @@
             </a>
             <hr />
             <ul class="mynav nav nav-pills flex-column mb-auto">
+
                 <li class="nav-item mb-1">
-                    <a href="ListarTrabajadores.aspx">
-                        <i class="fa-solid fa-user-tie"></i>Trabajadores
+                    <a href="ListarAreas.aspx">
+                        <i class="fa-solid fa-building"></i>Áreas
                     </a>
                 </li>
-                <li class="nav-item mb-1">
-                    <a href="#">
-                        <i class="fa-solid fa-question pe-2"></i>Otro Componente 1
-                    </a>
-                </li>
+
                 <li class="nav-item mb-1">
                     <a href="#">
-                        <i class="fa-solid fa-question pe-2"></i>Otro Componente 2
+                        <i class="fa-solid fa-user-tie"></i>Empleados
                     </a>
                 </li>
-                <li class="nav-item mb-1">
-                    <a href="#">
-                        <i class="fa-solid fa-question pe-2"></i>Otro Componente 3
-                    </a>
-                </li>
+
             </ul>
             <hr />
             <div class="d-flex">
@@ -68,7 +61,7 @@
             <div class="p-2 d-md-none d-flex text-white bg-primary">
                 <a data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" class="text-white">
                     <i class="fa-solid fa-bars"></i>
-                    <img src="Images/pucp.png" width="75" class="ms-4"/>
+                    <img src="Images/pucp.png" width="75" class="ms-4" />
                 </a>
             </div>
             <nav class="navbar navbar-dark bg-primary">
@@ -80,7 +73,7 @@
                                 id="btnUsuario" data-bs-toggle="dropdown" type="button"
                                 aria-expanded="false">
                                 <i class="fas fa-user me-2"></i>
-                                Fabricio Cáceres
+                                Fabricio
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="btnUsuario">
                                 <li><a class="dropdown-item" href="#">Perfil</a></li>
@@ -98,5 +91,6 @@
                 </form>
             </div>
         </div>
+    </div>
 </body>
 </html>

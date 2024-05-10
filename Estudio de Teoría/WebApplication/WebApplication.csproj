@@ -99,9 +99,9 @@
     <Content Include="Content\Fonts\css\v5-font-face.css" />
     <Content Include="Content\Fonts\css\v5-font-face.min.css" />
     <Content Include="Content\site.css" />
-    <Content Include="GestionarTrabajador.aspx" />
+    <Content Include="GestionarArea.aspx" />
     <Content Include="Home.aspx" />
-    <Content Include="ListarTrabajadores.aspx" />
+    <Content Include="ListarAreas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -132,12 +132,12 @@
       <DependentUpon>Empresa.Master</DependentUpon>
     </Compile>
     <Compile Include="Estado.cs" />
-    <Compile Include="GestionarTrabajador.aspx.cs">
-      <DependentUpon>GestionarTrabajador.aspx</DependentUpon>
+    <Compile Include="GestionarArea.aspx.cs">
+      <DependentUpon>GestionarArea.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GestionarTrabajador.aspx.designer.cs">
-      <DependentUpon>GestionarTrabajador.aspx</DependentUpon>
+    <Compile Include="GestionarArea.aspx.designer.cs">
+      <DependentUpon>GestionarArea.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -146,12 +146,12 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ListarTrabajadores.aspx.cs">
-      <DependentUpon>ListarTrabajadores.aspx</DependentUpon>
+    <Compile Include="ListarAreas.aspx.cs">
+      <DependentUpon>ListarAreas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ListarTrabajadores.aspx.designer.cs">
-      <DependentUpon>ListarTrabajadores.aspx</DependentUpon>
+    <Compile Include="ListarAreas.aspx.designer.cs">
+      <DependentUpon>ListarAreas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

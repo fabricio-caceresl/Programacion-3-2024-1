@@ -11,25 +11,34 @@ namespace WebApplication
 {
 
 
-    public partial class ListarTrabajadores
+    public partial class ListarAreas
     {
 
         /// <summary>
-        /// lbRegistrarTrabajador control.
+        /// lbRegistrarArea control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbRegistrarTrabajador;
+        protected global::System.Web.UI.WebControls.LinkButton lbRegistrarArea;
 
         /// <summary>
-        /// gvTrabajadores control.
+        /// lblSinAreasRegistradas control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvTrabajadores;
+        protected global::System.Web.UI.WebControls.Label lblSinAreasRegistradas;
+
+        /// <summary>
+        /// gvAreas control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvAreas;
     }
 }
