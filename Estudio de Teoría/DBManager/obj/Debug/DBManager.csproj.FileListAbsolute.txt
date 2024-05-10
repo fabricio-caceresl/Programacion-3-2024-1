@@ -22,3 +22,15 @@ D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBM
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.Up2Date
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.dll
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\DBManager.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\DBManager.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\MySql.Data.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Memory.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Numerics.Vectors.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\bin\Debug\System.Buffers.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.AssemblyReference.cache
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.CoreCompileInputs.cache
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.csproj.CopyComplete
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\DBManager\obj\Debug\DBManager.pdb
