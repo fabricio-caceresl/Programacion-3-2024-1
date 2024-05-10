@@ -100,6 +100,7 @@
     <Content Include="Content\Fonts\css\v5-font-face.min.css" />
     <Content Include="Content\site.css" />
     <Content Include="GestionarArea.aspx" />
+    <Content Include="GestionarEmpleado.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="ListarAreas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -138,6 +139,13 @@
     </Compile>
     <Compile Include="GestionarArea.aspx.designer.cs">
       <DependentUpon>GestionarArea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarEmpleado.aspx.cs">
+      <DependentUpon>GestionarEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarEmpleado.aspx.designer.cs">
+      <DependentUpon>GestionarEmpleado.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
