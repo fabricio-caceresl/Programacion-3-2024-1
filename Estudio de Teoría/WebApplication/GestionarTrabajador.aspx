@@ -44,8 +44,8 @@
             <div class="card-footer clearfix">
                 <asp:Button ID="btnRegresar" runat="server" Text="Regresar"
                     CssClass="float-end btn btn-secondary m-1" OnClick="btnRegresar_Click"/>
-                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar"
-                    CssClass="float-end btn btn-primary m-1" OnClick="btnRegistrar_Click"/>
+                <asp:Button ID="btnGuardar" runat="server" Text="Guardar"
+                    CssClass="float-end btn btn-primary m-1" OnClick="btnGuardar_Click"/>
             </div>
 
         </div>

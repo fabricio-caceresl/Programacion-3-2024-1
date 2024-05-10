@@ -131,6 +131,7 @@
     <Compile Include="Empresa.Master.designer.cs">
       <DependentUpon>Empresa.Master</DependentUpon>
     </Compile>
+    <Compile Include="Estado.cs" />
     <Compile Include="GestionarTrabajador.aspx.cs">
       <DependentUpon>GestionarTrabajador.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

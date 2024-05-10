@@ -14,11 +14,12 @@ namespace WebApplication
     public partial class ListarTrabajadores : System.Web.UI.Page
     {
         private TrabajadorDAO trabajadorDao;
+        private BindingList<Trabajador> trabajadores;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             trabajadorDao = new TrabajadorMySQL();
-            BindingList<Trabajador> trabajadores = trabajadorDao.listarTodos();
+            trabajadores = trabajadorDao.listarTodos();
             gvTrabajadores.DataSource = trabajadores;
             gvTrabajadores.DataBind();
         }
@@ -31,6 +32,9 @@ namespace WebApplication
         protected void lbEditarTrabajador_Click(object sender, EventArgs e)
         {
             int id = Int32.Parse(((LinkButton) sender).CommandArgument);
+            Trabajador trabajador = trabajadores.SingleOrDefault(x => x.Id == id);
+            Session["trabajador"] = trabajador;
+            Response.Redirect("GestionarTrabajador.aspx?accion=editar");
         }
 
         protected void lbEliminarTrabajador_Click(object sender, EventArgs e)

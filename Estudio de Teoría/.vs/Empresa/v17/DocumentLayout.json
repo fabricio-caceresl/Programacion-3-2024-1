@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\gestionartrabajador.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\gestionartrabajador.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\listartrabajadores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\listartrabajadores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\listartrabajadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\gestionartrabajador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\gestionartrabajador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\webapplication\\listartrabajadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\listartrabajadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -18,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionarTrabajador.aspx",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarTrabajador.aspx",
+              "RelativeDocumentMoniker": "WebApplication\\GestionarTrabajador.aspx",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarTrabajador.aspx",
+              "RelativeToolTip": "WebApplication\\GestionarTrabajador.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-10T05:13:15.677Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -31,19 +52,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GestionarTrabajador.aspx.cs",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarTrabajador.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication\\GestionarTrabajador.aspx.cs",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarTrabajador.aspx.cs",
+              "RelativeToolTip": "WebApplication\\GestionarTrabajador.aspx.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T05:13:16.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ListarTrabajadores.aspx.cs",
               "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarTrabajadores.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication\\ListarTrabajadores.aspx.cs",
               "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarTrabajadores.aspx.cs",
               "RelativeToolTip": "WebApplication\\ListarTrabajadores.aspx.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T04:54:21.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ListarTrabajadores.aspx",
               "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarTrabajadores.aspx",
               "RelativeDocumentMoniker": "WebApplication\\ListarTrabajadores.aspx",
