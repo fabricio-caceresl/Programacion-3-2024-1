@@ -44,7 +44,7 @@ namespace WebApplication
         protected void lbEliminarArea_Click(object sender, EventArgs e)
         {
             int idArea = Int32.Parse(((LinkButton)sender).CommandArgument);
-            areaDao.eliminarArea(idArea);
+            areaDao.eliminar(idArea);
             Response.Redirect("ListarAreas.aspx");
         }
 

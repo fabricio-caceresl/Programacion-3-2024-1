@@ -30,7 +30,7 @@
         <!-- Menú Lateral -->
         <div id="bdSidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-primary
                     text-white offcanvas-md offcanvas-start">
-            <a href="#" class="navbar-brand">
+            <a href="Home.aspx" class="navbar-brand">
                 <img src="Images/pucp.png" width="120" />
             </a>
             <hr />
@@ -45,6 +45,12 @@
                 <li class="nav-item mb-1">
                     <a href="GestionarEmpleado.aspx">
                         <i class="fa-solid fa-user-tie"></i>Empleados
+                    </a>
+                </li>
+
+                <li class="nav-item mb-1">
+                    <a href="ListarClientes.aspx">
+                        <i class="fa-solid fa-people-line"></i>Clientes
                     </a>
                 </li>
 

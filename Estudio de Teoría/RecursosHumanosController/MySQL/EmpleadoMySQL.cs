@@ -15,7 +15,6 @@ namespace RecursosHumanosController.MySQL
     {
         private MySqlConnection conexion;
         private MySqlCommand comando;
-        private MySqlDataReader lector;
 
         public int insertarEmpleado(Empleado empleado)
         {
@@ -23,7 +22,7 @@ namespace RecursosHumanosController.MySQL
 
             try
             {
-                conexion = DBManager.Instancia.Connection;
+                conexion = DBManager.Instancia.Conexion;
                 conexion.Open();
 
                 comando = new MySqlCommand();

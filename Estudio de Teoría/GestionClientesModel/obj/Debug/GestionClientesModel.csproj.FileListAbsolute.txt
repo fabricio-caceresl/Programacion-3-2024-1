@@ -1,0 +1,9 @@
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\obj\Debug\GestionClientesModel.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\obj\Debug\GestionClientesModel.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\bin\Debug\GestionClientesModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\bin\Debug\GestionClientesModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\bin\Debug\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\bin\Debug\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\obj\Debug\GestionC.E4A49084.Up2Date
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\obj\Debug\GestionClientesModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\GestionClientesModel\obj\Debug\GestionClientesModel.pdb

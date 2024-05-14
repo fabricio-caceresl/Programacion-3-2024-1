@@ -56,11 +56,11 @@ namespace WebApplication
             area.Nombre = txtNombre.Text;
             area.Descripcion = txtDescripcion.Text;
 
-            if (estado == Estado.Nuevo) resultado = areaDao.insertarArea(area);
+            if (estado == Estado.Nuevo) resultado = areaDao.insertar(area);
             else
             {
                 area.Id = Int32.Parse(txtId.Text);
-                resultado = areaDao.modificarArea(area);
+                resultado = areaDao.modificar(area);
             }
 
             Response.Redirect("ListarAreas.aspx");

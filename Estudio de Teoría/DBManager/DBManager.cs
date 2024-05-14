@@ -11,21 +11,21 @@ namespace EmpresaDBManager
     public class DBManager
     {
         private static DBManager instancia;
-        private MySqlConnection conn;
+        private MySqlConnection conexion;
 
-        private string servidor = "server=base-de-datos-personal.cr94q8u6tnjv.us-east-1.rds.amazonaws.com;";
-        private string user     = "user=admin;";
-        private string database = "database=Programacion_3;";
-        private string port     = "port=3306;";
-        private string password = "password=base-de-datos-personal.,;";
+        private string servidor   = "server=base-de-datos-personal.cr94q8u6tnjv.us-east-1.rds.amazonaws.com;";
+        private string usuario    = "user=admin;";
+        private string baseDatos  = "database=Programacion_3;";
+        private string puerto     = "port=3306;";
+        private string contrasena = "password=base-de-datos-personal.,;";
 
-        public MySqlConnection Connection
+        public MySqlConnection Conexion
         {
             get
             {
-                string cadenaConexion = servidor + user + database + port + password;
-                conn = new MySqlConnection(cadenaConexion);
-                return conn;
+                string cadenaConexion = servidor + usuario + baseDatos + puerto + contrasena;
+                conexion = new MySqlConnection(cadenaConexion);
+                return conexion;
             }
         }
 

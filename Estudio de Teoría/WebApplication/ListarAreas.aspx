@@ -19,7 +19,8 @@
             <div class="text-end p-3">
                 <asp:LinkButton ID="lbRegistrarArea" runat="server"
                     CssClass="btn btn-success"
-                    Text="<i class='fa-solid fa-plus pe-2'></i> Registrar Area" OnClick="lbRegistrarArea_Click" />
+                    Text="<i class='fa-solid fa-plus pe-2'></i> Registrar Area"
+                    OnClick="lbRegistrarArea_Click" />
             </div>
         </div>
         <div class="container row">

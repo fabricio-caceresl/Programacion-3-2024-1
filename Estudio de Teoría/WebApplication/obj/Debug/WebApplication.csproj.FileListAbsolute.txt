@@ -224,3 +224,7 @@ D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debu
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebAppli.11721D13.Up2Date
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.dll
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesController.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesModel.pdb

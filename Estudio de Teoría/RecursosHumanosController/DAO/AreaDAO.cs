@@ -10,9 +10,9 @@ namespace RecursosHumanosController.DAO
 {
     public interface AreaDAO
     {
-        int insertarArea(Area area);
-        int modificarArea(Area area);
-        int eliminarArea(int idArea);
+        int insertar(Area area);
+        int modificar(Area area);
+        int eliminar(int idArea);
         BindingList<Area> listarTodas();
     }
 }

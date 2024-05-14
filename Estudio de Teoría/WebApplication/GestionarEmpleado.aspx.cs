@@ -36,7 +36,7 @@ namespace WebApplication
 
         protected void btnRegresar_Click(object sender, EventArgs e)
         {
-            // Response.Redirect("#");
+            Response.Redirect("Home.aspx");
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)

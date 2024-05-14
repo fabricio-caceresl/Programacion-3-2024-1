@@ -13,8 +13,9 @@
     <RootNamespace>WebApplication</RootNamespace>
     <AssemblyName>WebApplication</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress>true</Use64BitIISExpress>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -104,6 +105,7 @@
     <Content Include="GestionarOrdenVenta.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="ListarAreas.aspx" />
+    <Content Include="ListarClientes.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -170,6 +172,13 @@
     <Compile Include="ListarAreas.aspx.designer.cs">
       <DependentUpon>ListarAreas.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListarClientes.aspx.cs">
+      <DependentUpon>ListarClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarClientes.aspx.designer.cs">
+      <DependentUpon>ListarClientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -207,6 +216,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GestionClientesController\GestionClientesController.csproj">
+      <Project>{a8a53ff6-f2ac-4b71-816e-c90473b39285}</Project>
+      <Name>GestionClientesController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestionClientesModel\GestionClientesModel.csproj">
+      <Project>{e6fb4c53-ca3c-459d-b050-2592b6250bb8}</Project>
+      <Name>GestionClientesModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RecursosHumanosController\RecursosHumanosController.csproj">
       <Project>{657e6b8a-a79d-4b93-9c42-0deb812b6f1e}</Project>
       <Name>RecursosHumanosController</Name>
@@ -231,7 +248,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51654/</IISUrl>
+          <IISUrl>http://localhost/WebApplication</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

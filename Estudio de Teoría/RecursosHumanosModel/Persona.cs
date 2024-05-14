@@ -21,5 +21,6 @@ namespace RecursosHumanosModel
         public string ApellidoPaterno { get => apellidoPaterno; set => apellidoPaterno = value; }
         public char Genero { get => genero; set => genero = value; }
         public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
+        public String NombreCompleto { get => nombre + " " + apellidoPaterno; }
     }
 }

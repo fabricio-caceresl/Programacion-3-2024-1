@@ -17,13 +17,13 @@ namespace RecursosHumanosController.MySQL
         private MySqlCommand comando;
         private MySqlDataReader lector;
 
-        public int insertarArea(Area area)
+        public int insertar(Area area)
         {
             int resultado = 0;
 
             try
             {
-                conexion = DBManager.Instancia.Connection;
+                conexion = DBManager.Instancia.Conexion;
                 conexion.Open();
 
                 comando = new MySqlCommand();
@@ -56,13 +56,13 @@ namespace RecursosHumanosController.MySQL
             return resultado;
         }
 
-        public int modificarArea(Area area)
+        public int modificar(Area area)
         {
             int resultado = 0;
 
             try
             {
-                conexion = DBManager.Instancia.Connection;
+                conexion = DBManager.Instancia.Conexion;
                 conexion.Open();
 
                 comando = new MySqlCommand();
@@ -91,13 +91,13 @@ namespace RecursosHumanosController.MySQL
             return resultado;
         }
 
-        public int eliminarArea(int idArea)
+        public int eliminar(int idArea)
         {
             int resultado = 0;
 
             try
             {
-                conexion = DBManager.Instancia.Connection;
+                conexion = DBManager.Instancia.Conexion;
                 conexion.Open();
 
                 comando = new MySqlCommand();
@@ -130,7 +130,7 @@ namespace RecursosHumanosController.MySQL
 
             try
             {
-                conexion = DBManager.Instancia.Connection;
+                conexion = DBManager.Instancia.Conexion;
                 conexion.Open();
 
                 comando = new MySqlCommand();
