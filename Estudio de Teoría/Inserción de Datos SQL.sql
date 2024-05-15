@@ -60,3 +60,29 @@ CALL INSERTAR_CLIENTE(@id, '77889900', 'Mateo', 'Martínez', 'M', '1981-02-23', 
 CALL INSERTAR_CLIENTE(@id, '88990011', 'Isabel', 'López', 'F', '1993-04-15', 4200.00, 'CLASICO');
 CALL INSERTAR_CLIENTE(@id, '99001122', 'Lucas', 'Gómez', 'M', '1979-11-07', 7000.00, 'VIP');
 CALL INSERTAR_CLIENTE(@id, '00112233', 'Valentina', 'Pérez', 'F', '1994-10-22', 5200.00, 'PLATINUM');
+
+
+
+-- /------------------------------------------------------/
+--                  Población de Productos                 
+-- /------------------------------------------------------/
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Raqueta de tenis Wilson Pro Staff', 'unidad', 129.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Pelotas de tenis Dunlop', 'paquete', 24.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Paleta Dabber Frontón Profesional', 'unidad', 89.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Pala de pádel Babolat Viper Carbon', 'unidad', 169.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Pelotas de pádel Head Pro', 'bolsa', 19.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Pala de pickleball Gamma Voltage', 'unidad', 79.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Pelotas de pickleball Onix Fuse G2', 'paquete', 29.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Raqueta de bádminton Yonex Nanoray', 'unidad', 99.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Volantes de bádminton Yonex Mavis 300', 'tubo', 14.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Red de bádminton portátil', 'unidad', 49.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Gafas protectoras para pádel', 'par', 29.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Grip antideslizante para raquetas', 'unidad', 7.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Overgrip absorbente para tenis', 'unidad', 5.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Protector para palas de pádel', 'unidad', 12.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Cinturón porta pelotas de tenis', 'unidad', 9.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Cinta de marcaje para pistas de pádel', 'rollo', 39.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Zapatillas de tenis Adidas CourtJam Bounce', 'par', 79.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Zapatillas de pádel Asics Gel Lima Padel', 'par', 89.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Calcetines de pickleball unisex', 'par', 9.99, 1);
+INSERT INTO Producto (nombre, unidadMedida, precio, activo) VALUES ('Overgrip para bádminton Yonex Super Grap', 'unidad', 6.99, 1);

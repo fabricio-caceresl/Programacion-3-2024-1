@@ -228,3 +228,7 @@ D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\Gest
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesModel.dll
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesController.pdb
 D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaController.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaModel.pdb

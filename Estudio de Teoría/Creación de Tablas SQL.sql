@@ -2,6 +2,9 @@
 --                Reiniciar la Base de Datos              
 -- /------------------------------------------------------/
 -- Eliminación de las Tablas
+DROP TABLE IF EXISTS LineaOrdenVenta;
+DROP TABLE IF EXISTS OrdenVenta;
+DROP TABLE IF EXISTS Producto;
 DROP TABLE IF EXISTS Cliente;
 DROP TABLE IF EXISTS Empleado;
 DROP TABLE IF EXISTS Persona;
@@ -17,6 +20,13 @@ DROP PROCEDURE IF EXISTS INSERTAR_EMPLEADO;
 DROP PROCEDURE IF EXISTS INSERTAR_CLIENTE;
 DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_TODOS;
 DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_POR_NOMBRE;
+-- Eliminación de los Procedimientos de Producto
+DROP PROCEDURE IF EXISTS LISTAR_PRODUCTOS_TODOS;
+DROP PROCEDURE IF EXISTS LISTAR_PRODUCTOS_POR_NOMBRE;
+-- Eliminación de los Procedimientos de Órden de Venta
+DROP PROCEDURE IF EXISTS INSERTAR_ORDEN_VENTA;
+-- Eliminación de los Procedimientos de Línea de Órden de Venta
+DROP PROCEDURE IF EXISTS INSERTAR_LINEA_ORDEN_VENTA;
 
 
 
@@ -59,6 +69,39 @@ CREATE TABLE Cliente (
     categoria ENUM('CLASICO','VIP','PLATINUM'),
     activo BOOL,
     FOREIGN KEY (id) REFERENCES Persona (id)
+);
+
+-- Tabla Producto
+CREATE TABLE Producto (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(300),
+    unidadMedida VARCHAR(300),
+    precio DECIMAL(10, 2),
+    activo BOOL
+);
+
+-- Tabla Orden de Venta
+CREATE TABLE OrdenVenta (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    fidCliente INT,
+    fidEmpleado INT,
+    total DECIMAL(10, 2),
+    fecha_hora DATETIME,
+    activo BOOL,
+    FOREIGN KEY (fidCliente) REFERENCES Cliente (id),
+    FOREIGN KEY (fidEmpleado) REFERENCES Empleado (id)
+);
+
+-- Tabla Línea de Orden de Venta
+CREATE TABLE LineaOrdenVenta (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    fidOrdenVenta INT,
+    fidProducto INT,
+    cantidad INT,
+    subtotal DECIMAL(10,2),
+    activo BOOL,
+    FOREIGN KEY (fidOrdenVenta) REFERENCES OrdenVenta (id),
+    FOREIGN KEY (fidProducto) REFERENCES Producto (id)
 );
 
 
@@ -202,4 +245,78 @@ BEGIN
 		  CONCAT(Persona.nombre, ' ', Persona.apellidoPaterno)
               LIKE CONCAT('%', _nombre, '%') AND
 		  activo = true;
+END$
+
+
+
+-- /------------------------------------------------------/
+--           PROCEDIMIENTOS PARA LOS PRODUCTOS           
+-- /------------------------------------------------------/
+DELIMITER $
+
+-- Procedimiento de Listar Todos
+CREATE PROCEDURE LISTAR_PRODUCTOS_TODOS ()
+BEGIN
+	SELECT id AS "ID",
+		   nombre AS "Nombre",
+		   unidadMedida AS "Unidad de Medida",
+           precio AS "Precio Unitario"
+    FROM Producto
+    WHERE activo = true;
+END$
+
+
+
+-- Procedimiento de Listar por Nombre
+CREATE PROCEDURE LISTAR_PRODUCTOS_POR_NOMBRE (
+	IN _nombre VARCHAR(100)
+)
+BEGIN
+	SELECT id AS "ID",
+		   nombre AS "Nombre",
+		   unidadMedida AS "Unidad de Medida",
+           precio AS "Precio Unitario"
+    FROM Producto
+    WHERE CONCAT(nombre, ' ', unidadMedida) LIKE
+		  CONCAT('%', _nombre, '%') AND
+		  activo = true;
+END$
+
+
+
+-- /------------------------------------------------------/
+--         PROCEDIMIENTOS PARA LAS ÓRDENES DE VENTA        
+-- /------------------------------------------------------/
+-- Procedimiento de Inserción
+CREATE PROCEDURE INSERTAR_ORDEN_VENTA (
+	OUT _id INT,
+    IN _fidCliente INT,
+    IN _fidEmpleado INT,
+    IN _total DECIMAL(10,2)
+)
+BEGIN
+	INSERT INTO OrdenVenta (fidCliente, fidEmpleado, total, fecha_hora, activo)
+    VALUES (_fidCliente, _fidEmpleado, _total, NOW(), true);
+    
+    SET _id = @@last_insert_id;
+END$
+
+
+
+-- /------------------------------------------------------/
+--     PROCEDIMIENTOS PARA LAS LÍNEAS DE ÓRDEN DE VENTA    
+-- /------------------------------------------------------/
+-- Procedimiento de Inserción
+CREATE PROCEDURE INSERTAR_LINEA_ORDEN_VENTA (
+	OUT _id INT,
+    IN _fidOrdenVenta INT,
+    IN _fidProducto INT,
+    IN _cantidad INT,
+    IN _subtotal DECIMAL(10,2)
+)
+BEGIN
+	INSERT INTO LineaOrdenVenta (fidOrdenVenta, fidProducto, cantidad, subtotal, activo)
+    VALUES (_fidOrdenVenta, _fidProducto, _cantidad, _subtotal, true);
+    
+    SET _id = @@last_insert_id;
 END$

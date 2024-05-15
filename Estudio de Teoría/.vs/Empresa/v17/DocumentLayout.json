@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\listarclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\listarclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92749FF-80DF-4C49-BCDB-A81B257E189D}|LogisticaController\\LogisticaController.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\logisticacontroller\\ventas\\mysql\\ordenventamysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92749FF-80DF-4C49-BCDB-A81B257E189D}|LogisticaController\\LogisticaController.csproj|solutionrelative:logisticacontroller\\ventas\\mysql\\ordenventamysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\listarclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\listarclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\gestionarordenventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\gestionarordenventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\estudio de teor\u00EDa\\webapplication\\gestionarordenventa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\gestionarordenventa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListarClientes.aspx.cs",
-              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarClientes.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication\\ListarClientes.aspx.cs",
-              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarClientes.aspx.cs",
-              "RelativeToolTip": "WebApplication\\ListarClientes.aspx.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAA3AAAA",
+              "Title": "OrdenVentaMySQL.cs",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\LogisticaController\\Ventas\\MySQL\\OrdenVentaMySQL.cs",
+              "RelativeDocumentMoniker": "LogisticaController\\Ventas\\MySQL\\OrdenVentaMySQL.cs",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\LogisticaController\\Ventas\\MySQL\\OrdenVentaMySQL.cs",
+              "RelativeToolTip": "LogisticaController\\Ventas\\MySQL\\OrdenVentaMySQL.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwDYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T21:37:58.653Z",
+              "WhenOpened": "2024-05-15T05:01:15.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionarOrdenVenta.aspx.cs",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarOrdenVenta.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication\\GestionarOrdenVenta.aspx.cs",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarOrdenVenta.aspx.cs",
+              "RelativeToolTip": "WebApplication\\GestionarOrdenVenta.aspx.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAIAwwJkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:42:01.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListarClientes.aspx",
-              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarClientes.aspx",
-              "RelativeDocumentMoniker": "WebApplication\\ListarClientes.aspx",
-              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\ListarClientes.aspx",
-              "RelativeToolTip": "WebApplication\\ListarClientes.aspx",
+              "Title": "GestionarOrdenVenta.aspx",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarOrdenVenta.aspx",
+              "RelativeDocumentMoniker": "WebApplication\\GestionarOrdenVenta.aspx",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Estudio de Teor\u00EDa\\WebApplication\\GestionarOrdenVenta.aspx",
+              "RelativeToolTip": "WebApplication\\GestionarOrdenVenta.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-14T21:37:48.641Z",
+              "WhenOpened": "2024-05-15T02:41:58.714Z",
               "EditorCaption": ""
             }
           ]

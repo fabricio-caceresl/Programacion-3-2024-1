@@ -1,0 +1,11 @@
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\bin\Debug\LogisticaModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\bin\Debug\LogisticaModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\bin\Debug\GestionClientesModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\bin\Debug\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\bin\Debug\GestionClientesModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\bin\Debug\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\obj\Debug\LogisticaModel.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\obj\Debug\LogisticaModel.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\obj\Debug\Logistic.6D20AD74.Up2Date
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\obj\Debug\LogisticaModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\LogisticaModel\obj\Debug\LogisticaModel.pdb

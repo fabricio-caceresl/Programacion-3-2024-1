@@ -224,6 +224,14 @@
       <Project>{e6fb4c53-ca3c-459d-b050-2592b6250bb8}</Project>
       <Name>GestionClientesModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LogisticaController\LogisticaController.csproj">
+      <Project>{e92749ff-80df-4c49-bcdb-a81b257e189d}</Project>
+      <Name>LogisticaController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogisticaModel\LogisticaModel.csproj">
+      <Project>{23ecb043-2f01-4b73-879d-80eefa6d985e}</Project>
+      <Name>LogisticaModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RecursosHumanosController\RecursosHumanosController.csproj">
       <Project>{657e6b8a-a79d-4b93-9c42-0deb812b6f1e}</Project>
       <Name>RecursosHumanosController</Name>
