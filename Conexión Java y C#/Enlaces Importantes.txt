@@ -1,0 +1,5 @@
+URL de Página de Pruebas:
+http://localhost:8080/EmpresaWebService/PrimerWebService?Tester
+
+URL de Dirección de Servicio:
+http://localhost:8080/EmpresaWebService/PrimerWebService?WSDL
