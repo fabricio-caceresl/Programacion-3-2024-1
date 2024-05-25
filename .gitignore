@@ -26,3 +26,27 @@ replay_pid*
 /EmpresaWebApplication/build/
 /Conexión Java y C#/EmpresaWebService/nbproject/private/
 /Conexión Java y C#/EmpresaWebService/build/
+/Backend en Java/EmpresaDBManager/nbproject/private/
+/Backend en Java/EmpresaGestClientesController/nbproject/private/
+/Backend en Java/DBManager/nbproject/private/
+/Backend en Java/GestionClientesModel/nbproject/private/
+/Backend en Java/LogisticaModel/nbproject/private/
+/Backend en Java/RecursosHumanosController/nbproject/private/
+/Backend en Java/RecursosHumanosModel/nbproject/private/
+/Backend en Java/GestionClientesController/nbproject/private/
+/Backend en Java/DBManager/build/
+/Backend en Java/DBManager/dist/
+/Backend en Java/GestionClientesController/build/
+/Backend en Java/RecursosHumanosModel/build/
+/Backend en Java/RecursosHumanosModel/dist/
+/Backend en Java/GestionClientesModel/build/
+/Backend en Java/LogisticaModel/build/
+/Backend en Java/LogisticaModel/dist/
+/Backend en Java/GestionClientesModel/dist/
+/Backend en Java/RecursosHumanosController/build/
+/Backend en Java/RecursosHumanosController/dist/
+/Backend en Java/GestionClientesController/dist/
+/Backend en Java/SoftProg/nbproject/private/
+/Backend en Java/Empresa/nbproject/private/
+/Backend en Java/Empresa/build/
+/Backend en Java/Empresa/dist/
