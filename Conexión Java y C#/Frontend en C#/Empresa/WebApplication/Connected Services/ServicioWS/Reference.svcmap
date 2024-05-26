@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ddc1e573-7794-419e-a855-ab605b60c715" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/EmpresaWebServices/referencias.disco" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="referencias.disco" MetadataType="Disco" ID="a19567e7-3dd1-490f-8a27-aaf8e476f815" SourceId="1" SourceUrl="http://localhost:8080/EmpresaWebServices/referencias.disco" />
+    <MetadataFile FileName="AreaWS.xsd" MetadataType="Schema" ID="9c558618-5d81-4ed2-9a47-775754fff901" SourceId="1" SourceUrl="http://localhost:8080/EmpresaWebServices/AreaWS?xsd=1" />
+    <MetadataFile FileName="EmpleadoWS.xsd" MetadataType="Schema" ID="d72bf724-a533-4143-ae0c-042bd4f47d80" SourceId="1" SourceUrl="http://localhost:8080/EmpresaWebServices/EmpleadoWS?xsd=1" />
+    <MetadataFile FileName="AreaWS.wsdl" MetadataType="Wsdl" ID="479e46e8-9188-42d4-8197-adf3d45703c7" SourceId="1" SourceUrl="http://localhost:8080/EmpresaWebServices/AreaWS?WSDL" />
+    <MetadataFile FileName="EmpleadoWS.wsdl" MetadataType="Wsdl" ID="1cb9f064-e817-4a89-8918-f76808987e46" SourceId="1" SourceUrl="http://localhost:8080/EmpresaWebServices/EmpleadoWS?WSDL" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

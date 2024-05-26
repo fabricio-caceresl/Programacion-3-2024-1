@@ -1,5 +1,11 @@
-URL de Página de Pruebas:
-http://localhost:8080/EmpresaWebService/PrimerWebService?Tester
+URL de Inicio:
+http://localhost:8080/EmpresaWebServices/
 
-URL de Dirección de Servicio:
-http://localhost:8080/EmpresaWebService/PrimerWebService?WSDL
+URL de Página de Pruebas:
+http://localhost:8080/EmpresaWebServices/NombreDelWebService?Tester
+
+URL de Dirección de Servicio (para enlazar al Visual Studio):
+http://localhost:8080/EmpresaWebServices/NombreDelWebService?WSDL
+
+URL del Archivo de Descubrimiento:
+http://localhost:8080/EmpresaWebServices/referencias.disco

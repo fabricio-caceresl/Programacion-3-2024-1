@@ -6,7 +6,7 @@ DROP PROCEDURE IF EXISTS INSERTAR_AREA;
 DROP PROCEDURE IF EXISTS MODIFICAR_AREA;
 DROP PROCEDURE IF EXISTS ELIMINAR_AREA;
 DROP PROCEDURE IF EXISTS LISTAR_AREAS_TODAS;
--- Eliminación de los Procedimientos de Trabajador
+-- Eliminación de los Procedimientos de Empleado
 DROP PROCEDURE IF EXISTS INSERTAR_EMPLEADO;
 -- Eliminación de los Procedimientos de Cliente
 DROP PROCEDURE IF EXISTS INSERTAR_CLIENTE;
@@ -62,7 +62,7 @@ BEGIN
     WHERE id = _id;
 END$
 
--- Procedimiento de Listar Todos
+-- Procedimiento de Listar Todas
 CREATE PROCEDURE LISTAR_AREAS_TODAS ()
 BEGIN
 	SELECT id AS "ID", nombre AS "Nombre", descripcion AS "Descripción"
@@ -97,6 +97,22 @@ BEGIN
     
     INSERT INTO Empleado (id, fidArea, cargo, sueldo, activo)
     VALUES (_id, _fidArea, _cargo, _sueldo, true);
+END$
+
+-- Procedimiento de Listar Todos
+CREATE PROCEDURE LISTAR_EMPLEADOS_TODOS ()
+BEGIN
+	SELECT Persona.id AS "ID", Persona.dni AS "DNI",
+		   Persona.nombre AS "Nombre",
+		   Persona.apellidoPaterno AS "Apellido Paterno",
+           Persona.genero AS "Género",
+           Persona.fechaNacimiento AS "Fecha de Nacimiento",
+           Empleado.cargo AS "Cargo",
+           Empleado.sueldo AS "Sueldo"
+    FROM Persona
+    INNER JOIN Empleado ON Empleado.id
+    WHERE Persona.id = Empleado.id AND
+		  activo = true;
 END$
 
 

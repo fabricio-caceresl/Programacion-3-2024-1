@@ -50,3 +50,21 @@ replay_pid*
 /Backend en Java/Empresa/nbproject/private/
 /Backend en Java/Empresa/build/
 /Backend en Java/Empresa/dist/
+/Conexión Java y C#/DBManager/build/
+/Conexión Java y C#/DBManager/nbproject/private/
+/Conexión Java y C#/RecursosHumanosController/build/
+/Conexión Java y C#/RecursosHumanosController/nbproject/private/
+/Conexión Java y C#/RecursosHumanosModel/build/
+/Conexión Java y C#/RecursosHumanosModel/nbproject/private/
+/Conexión Java y C#/DBManager/dist/
+/Conexión Java y C#/RecursosHumanosController/dist/
+/Conexión Java y C#/RecursosHumanosModel/dist/
+/Conexión Java y C#/EmpresaWebService/dist/
+!/Conexión Java y C#/EmpresaWebService/src/java/empresa/lib/jakarta.xml.ws-api-4.0.1.jar
+!/Conexión Java y C#/EmpresaWebService/src/java/empresa/lib/mysql-connector-j-8.3.0.jar
+/Conexión Java y C#/Backend en Java/EmpresaWebServices/nbproject/private/
+/Conexión Java y C#/Backend en Java/DBManager/dist/
+/Conexión Java y C#/Backend en Java/RecursosHumanosModel/dist/
+/Conexión Java y C#/Backend en Java/EmpresaWebServices/build/
+/Conexión Java y C#/Backend en Java/RecursosHumanosController/dist/
+/Conexión Java y C#/Backend en Java/EmpresaWebServices/dist/

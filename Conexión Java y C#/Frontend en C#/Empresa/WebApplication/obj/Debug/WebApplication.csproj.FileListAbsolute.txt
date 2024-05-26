@@ -1,0 +1,275 @@
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\WebApplication.dll.config
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\WebApplication.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\WebApplication.pdb
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\csc.exe
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\csc.rsp
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\csi.exe
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\csi.rsp
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.AppContext.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Console.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Net.Http.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\vbc.exe
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\obj\Debug\WebAppli.11721D13.Up2Date
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\RecursosHumanosController.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\MySql.Data.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\DBManager.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\System.Memory.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\System.Numerics.Vectors.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\System.Buffers.dll
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\RecursosHumanosController.pdb
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\11. Desarrollo Web\WebApplication\bin\DBManager.pdb
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\WebApplication.dll.config
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\WebApplication.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\WebApplication.pdb
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\csc.exe
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\csc.rsp
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\csi.exe
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\csi.rsp
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Buffers.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Memory.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\vbc.exe
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\RecursosHumanosController.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\RecursosHumanosModel.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\MySql.Data.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\DBManager.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\System.Memory.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\System.Numerics.Vectors.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\System.Buffers.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\RecursosHumanosController.pdb
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\RecursosHumanosModel.pdb
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\bin\DBManager.pdb
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\obj\Debug\WebAppli.11721D13.Up2Date
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\Fabricio\Desktop\12. Bootstrap\WebApplication\obj\Debug\WebApplication.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\WebApplication.dll.config
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\WebApplication.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\WebApplication.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csc.exe
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csc.exe.config
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csc.rsp
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csi.exe
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csi.exe.config
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csi.rsp
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Buffers.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Memory.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Numerics.Vectors.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\vbc.exe
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\vbc.exe.config
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\vbc.rsp
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\VBCSCompiler.exe
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosController.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosModel.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\MySql.Data.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\DBManager.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Memory.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Threading.Tasks.Extensions.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Numerics.Vectors.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Buffers.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosController.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosModel.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\DBManager.pdb
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.dll
+T:\Repositorios\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\WebApplication.dll.config
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\WebApplication.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\WebApplication.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csc.exe
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csc.exe.config
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csc.rsp
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csi.exe
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csi.exe.config
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\csi.rsp
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Buffers.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Memory.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Numerics.Vectors.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\vbc.exe
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\vbc.exe.config
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\vbc.rsp
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\VBCSCompiler.exe
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\MySql.Data.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\DBManager.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Memory.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Numerics.Vectors.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\System.Buffers.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosController.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\RecursosHumanosModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\DBManager.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebAppli.11721D13.Up2Date
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\obj\Debug\WebApplication.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesController.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\GestionClientesModel.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaController.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaModel.dll
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaController.pdb
+D:\Repositories\Programacion-3-2024-1\Estudio de Teoría\WebApplication\bin\LogisticaModel.pdb
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\WebApplication.dll.config
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\WebApplication.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\WebApplication.pdb
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\csc.exe
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\csc.exe.config
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\csc.rsp
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\csi.exe
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\csi.exe.config
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\csi.rsp
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Buffers.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Memory.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Numerics.Vectors.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\vbc.exe
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\vbc.exe.config
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\vbc.rsp
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\VBCSCompiler.exe
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\obj\Debug\WebAppli.11721D13.Up2Date
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\obj\Debug\WebApplication.dll
+D:\Repositories\Programacion-3-2024-1\Conexión Java y C#\Frontend en C#\Empresa\WebApplication\obj\Debug\WebApplication.pdb

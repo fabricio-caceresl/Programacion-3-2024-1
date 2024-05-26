@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.recursoshumanos.empresa/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="AreaWS" targetNamespace="http://services.recursoshumanos.empresa/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/EmpresaWebServices/AreaWS?xsd=1" namespace="http://services.recursoshumanos.empresa/" />
+    </xsd:schema>
+  </types>
+  <message name="insertar">
+    <part name="parameters" element="tns:insertar" />
+  </message>
+  <message name="insertarResponse">
+    <part name="parameters" element="tns:insertarResponse" />
+  </message>
+  <message name="modificar">
+    <part name="parameters" element="tns:modificar" />
+  </message>
+  <message name="modificarResponse">
+    <part name="parameters" element="tns:modificarResponse" />
+  </message>
+  <message name="eliminar">
+    <part name="parameters" element="tns:eliminar" />
+  </message>
+  <message name="eliminarResponse">
+    <part name="parameters" element="tns:eliminarResponse" />
+  </message>
+  <message name="listarTodas">
+    <part name="parameters" element="tns:listarTodas" />
+  </message>
+  <message name="listarTodasResponse">
+    <part name="parameters" element="tns:listarTodasResponse" />
+  </message>
+  <portType name="AreaWS">
+    <operation name="insertar">
+      <input wsam:Action="http://services.recursoshumanos.empresa/AreaWS/insertarRequest" message="tns:insertar" />
+      <output wsam:Action="http://services.recursoshumanos.empresa/AreaWS/insertarResponse" message="tns:insertarResponse" />
+    </operation>
+    <operation name="modificar">
+      <input wsam:Action="http://services.recursoshumanos.empresa/AreaWS/modificarRequest" message="tns:modificar" />
+      <output wsam:Action="http://services.recursoshumanos.empresa/AreaWS/modificarResponse" message="tns:modificarResponse" />
+    </operation>
+    <operation name="eliminar">
+      <input wsam:Action="http://services.recursoshumanos.empresa/AreaWS/eliminarRequest" message="tns:eliminar" />
+      <output wsam:Action="http://services.recursoshumanos.empresa/AreaWS/eliminarResponse" message="tns:eliminarResponse" />
+    </operation>
+    <operation name="listarTodas">
+      <input wsam:Action="http://services.recursoshumanos.empresa/AreaWS/listarTodasRequest" message="tns:listarTodas" />
+      <output wsam:Action="http://services.recursoshumanos.empresa/AreaWS/listarTodasResponse" message="tns:listarTodasResponse" />
+    </operation>
+  </portType>
+  <binding name="AreaWSPortBinding" type="tns:AreaWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="insertar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarTodas">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="AreaWS">
+    <port name="AreaWSPort" binding="tns:AreaWSPortBinding">
+      <soap:address location="http://localhost:8080/EmpresaWebServices/AreaWS" />
+    </port>
+  </service>
+</definitions>

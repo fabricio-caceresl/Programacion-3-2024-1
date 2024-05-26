@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repositories\\Programacion-3-2024-1\\Conexi\u00F3n Java y C#\\Frontend en C#\\Empresa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\conexi\u00F3n java y c#\\frontend en c#\\empresa\\webapplication\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|d:\\repositories\\programacion-3-2024-1\\conexi\u00F3n java y c#\\frontend en c#\\empresa\\webapplication\\listarareas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FE4EB40E-120A-4A04-995D-A1872C8E21B9}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\listarareas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListarAreas.aspx.cs",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Conexi\u00F3n Java y C#\\Frontend en C#\\Empresa\\WebApplication\\ListarAreas.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication\\ListarAreas.aspx.cs",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Conexi\u00F3n Java y C#\\Frontend en C#\\Empresa\\WebApplication\\ListarAreas.aspx.cs",
+              "RelativeToolTip": "WebApplication\\ListarAreas.aspx.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:43:38.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListarAreas.aspx",
+              "DocumentMoniker": "D:\\Repositories\\Programacion-3-2024-1\\Conexi\u00F3n Java y C#\\Frontend en C#\\Empresa\\WebApplication\\ListarAreas.aspx",
+              "RelativeDocumentMoniker": "WebApplication\\ListarAreas.aspx",
+              "ToolTip": "D:\\Repositories\\Programacion-3-2024-1\\Conexi\u00F3n Java y C#\\Frontend en C#\\Empresa\\WebApplication\\ListarAreas.aspx",
+              "RelativeToolTip": "WebApplication\\ListarAreas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-25T17:43:36.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
